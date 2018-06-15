@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FightClub.BL.PlayerEventArgs">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FightClub.BL.Player">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="field" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AkCAAAAAwAAAAEAAAAFAAIQAgAAAAACAAAgAAQACAAA=</HashCode>
+      <FileName>Model\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BodyPart" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FightClub.BL.GameModelEventArgs">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\GameModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FightClub.BL.GameModel">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="field" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAAACAACAAAABAAAAAAAAgAAAAABAAAgAAAQQAAAA=</HashCode>
+      <FileName>Model\GameModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Player" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FightClub.BL.IPlayer">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAAAAAAAAAFAAAQAAAAAAAAAAAgAAAACAAA=</HashCode>
+      <FileName>Model\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FightClub.BL.IGameModel">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAAAAAAAAAAAAAgAAAAABAAAAAAAAQAAAA=</HashCode>
+      <FileName>Model\IGameModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FightClub.BL.BodyPart">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="field" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAYAAAAAAAAAA=</HashCode>
+      <FileName>Model\BodyPartEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
